@@ -20,7 +20,21 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'rspec-rails', :group => [:development, :test]
+gem 'bson_ext'
+gem 'mongoid'
+gem 'devise'
+gem 'haml'
 
+
+group :test do
+  gem 'database_cleaner'
+  gem 'mongoid-rspec'
+  gem 'factory_girl_rails'
+  gem 'cucumber-rails'
+  gem 'capybara'
+  gem 'launchy'
+end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
