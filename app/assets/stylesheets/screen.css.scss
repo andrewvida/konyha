@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Abel);
+
+$dark_blue:  #304269;
+$med_blue:   #91BED4;
+$light_blue: #D9E8F5;
+$white:      #FFFFFF;
+$orange:     #F26101;
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
+caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details,
+embed, figure, figcaption, footer, header, hgroup, menu, nav, output,
+ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html body {
+  font-family: Abel;
+  padding-bottom: 20px;
+}
+
+#index_header {
+  // height: 240px;
+  height: 133px;
+  background: url(wood_pattern.png);
+}
+
+#index_header a {
+  font-family: Oxygen;
+  font-size: 48px;
+  color: $orange;
+  position: relative;
+  top: 56px;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  text-indent: 1em;
+}
+
+#recipe {
+  border-top: 2px solid white;
+  background-color: $light_blue;
+}
+
+#recipe .wrapper {
+  padding: 25px 0;
+  line-height: 150%;
+}
+
+.wrapper {
+  position: relative;
+  width: 894px;
+  margin: 0 auto;
+}
+
+#recipe p {
+  width: 600px;
+  font-size: 20px;
+  color: #526668;
+}
+
+#recipe p a {
+  background: url(torta2.png);
+}

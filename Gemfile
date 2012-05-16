@@ -25,7 +25,6 @@ gem 'bson_ext'
 gem 'mongoid'
 gem 'devise'
 gem 'haml'
-gem 'bootstrap-sass'
 
 
 group :test do
