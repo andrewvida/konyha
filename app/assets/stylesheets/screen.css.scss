@@ -23,18 +23,18 @@ ruby, section, summary, time, mark, audio, video {
 }
 
 html body {
-  font-family: Abel;
+  font-family: Oxygen;
   padding-bottom: 20px;
+  background: url(gridme.png);
 }
 
 #index_header {
   // height: 240px;
   height: 133px;
-  background: url(wood_pattern.png);
+  // background: url(wood_pattern.png);
 }
 
 #index_header a {
-  font-family: Oxygen;
   font-size: 48px;
   color: $orange;
   position: relative;
@@ -46,7 +46,7 @@ html body {
 }
 
 #recipe {
-  border-top: 2px solid white;
+  border-top: 2px solid $med_blue;
   background-color: $light_blue;
 }
 
@@ -63,8 +63,11 @@ html body {
 
 #recipe p {
   width: 600px;
-  font-size: 20px;
-  color: #526668;
+  font-size: 15px;
+  color: $dark_blue;
+  background: white;
+  box-shadow: 0px 3px 10px #888888;
+  padding: 25px;
 }
 
 #recipe p a {
