@@ -48,11 +48,14 @@ html body {
 #recipe {
   border-top: 2px solid $med_blue;
   background-color: $light_blue;
+  padding: 25px 0;
 }
 
 #recipe .wrapper {
   padding: 25px 0;
   line-height: 150%;
+  background: white;
+  box-shadow: 0px 3px 10px #888888;
 }
 
 .wrapper {
@@ -63,13 +66,40 @@ html body {
 
 #recipe p {
   width: 600px;
-  font-size: 15px;
+  font-size: 12px;
   color: $dark_blue;
-  background: white;
-  box-shadow: 0px 3px 10px #888888;
   padding: 25px;
 }
 
 #recipe p a {
   background: url(torta2.png);
+}
+
+#recipe p em {
+  display: block;
+  margin-bottom: 5px;
+  color: $dark_blue;
+  font-size: 18px;
+  line-height: 115%;
+  text-transform: uppercase;
+}
+
+#recipe_image {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  width: 425px;
+}
+
+#recipe_image a {
+  position: relative;
+  display: block;
+  width: 400px;
+  height: 400px;
+  margin-left: 9px;
+  line-height: 45px;
+  text-decoration: none;
+  background: url(torta2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
